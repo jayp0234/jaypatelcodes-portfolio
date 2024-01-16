@@ -1,5 +1,4 @@
 import { motion, useTransform, useViewportScroll } from 'framer-motion';
-import Image from 'next/image';
 import { useMemo, useState, useEffect } from 'react';
 
 const useParallaxEffect = (speed, reduceForSmallScreen = false) => {
@@ -9,7 +8,7 @@ const useParallaxEffect = (speed, reduceForSmallScreen = false) => {
     useEffect(() => {
         const handleResize = () => {
             const isSmallScreen = window.innerWidth <= 639; // sm breakpoint
-            setEffectiveSpeed(reduceForSmallScreen && isSmallScreen ? 0  : speed);
+            setEffectiveSpeed(reduceForSmallScreen && isSmallScreen ? 0 : speed);
         };
 
         handleResize();
@@ -44,29 +43,29 @@ const ParallaxTextLines = () => {
 
     return (
         <>
-            <h2 className='font-bold text-7xl mt-32 w-full text-center mb-8 hover:underline  decoration-[10px] underline-offset-2 lg:!text-6xl md:!text-5xl sm:!text-4xl sm:mb-8 xs:!text-3xl md:mt-12'>_ Skills _</h2>
-            <div className='text-lg font-bold uppercase mb-9  text-dark/75 flex items-center justify-center dark:text-light/75 md:text-base md:!mt-2 '>Expanding my knowledge</div>
+            <h2 className='font-bold text-7xl mt-32 w-full text-center mb-8 hover:underline decoration-[10px] underline-offset-2 lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl md:mt-12'>_ Skills _</h2>
+            <div className='text-lg font-bold uppercase mb-9 text-dark/75 flex items-center justify-center dark:text-light/75 md:text-base md:mt-2'>Expanding my knowledge</div>
             
             <div className="relative">
-                <div className="absolute top-0 left-12 h-full w-1 bg-black dark:bg-light lg:left-0 "></div> {/* Left vertical line */}
+                <div className="absolute top-0 left-12 h-full w-1 bg-black dark:bg-light lg:left-0"></div> {/* Left vertical line */}
                 <div className="absolute top-0 right-12 h-full w-1 bg-black dark:bg-light lg:right-0"></div> {/* Right vertical line */}
 
                 <div className="overflow-hidden">
                     {lines.map((line) => (
-      <motion.div
-      key={line.text}
-      style={{ x: line.direction === 'left' ? xLeft : xRight }}
-      className="flex justify-center items-center mb-4 space-x-3" // Added space-x-3 for spacing
-  >
-      <div className="flex items-center justify-center h-16 w-16 rounded drop-shadow-lg 
-          dark:shadow-[0_1.2px_1.2px_rgba(255, 255, 255, 0.5)] lg:w-12 lg:h-12 md:w-10 md:h-10 sm:w-8 sm:h-8">
-          <Image src={line.icon} alt={`${line.text} Icon`} layout='fill' objectFit="contain" />
-      </div>
-      <span className="text-4xl font-bold dark:drop-shadow-[0_1.2px_1.2px_rgba(255, 255, 255, 0.5)] lg:text-3xl md:text-2xl sm:text-xl xs:text-lg" style={{ color: line.color }}>
-          {line.text}
-      </span>
-  </motion.div>
-  
+                        <motion.div
+                            key={line.text}
+                            style={{ x: line.direction === 'left' ? xLeft : xRight }}
+                            className="flex justify-center items-center mb-4 space-x-3"
+                        >
+                            <div className="flex items-center justify-center h-16 w-16 rounded drop-shadow-lg 
+                                dark:shadow-[0_1.2px_1.2px_rgba(255, 255, 255, 0.5)] lg:w-12 lg:h-12 md:w-10 md:h-10 sm:w-8 sm:h-8">
+                                {/* Using standard img tag for consistent rendering */}
+                                <img src={line.icon} alt={`${line.text} Icon`} className="w-full h-full object-contain" />
+                            </div>
+                            <span className="text-4xl font-bold dark:drop-shadow-[0_1.2px_1.2px_rgba(255, 255, 255, 0.5)] lg:text-3xl md:text-2xl sm:text-xl xs:text-lg" style={{ color: line.color }}>
+                                {line.text}
+                            </span>
+                        </motion.div>
                     ))}
                 </div>
             </div>

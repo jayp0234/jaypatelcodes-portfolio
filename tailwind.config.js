@@ -33,7 +33,8 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 9s linear infinite',
-      }
+      },
+      
     },
     screens: {
       "2xl": { max: "1535px" },

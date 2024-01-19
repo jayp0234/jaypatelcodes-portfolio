@@ -7,7 +7,7 @@ import Image from 'next/image'
 import { motion, useMotionValue } from 'framer-motion'
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg"
 import article2 from "../../public/images/articles/smooth scrolling in reactjs.png"
-import article3 from "../../public/images/articles/form validation in reactjs using custom react hook.png"
+import article3 from "../../public/images/articles/dummy.png"
 import TransitionEffect from '@/components/TransitionEffect'
 
 
@@ -108,10 +108,10 @@ const articles = () => {
 
                         </li>
 
-                        <li>   <FeaturedArticle title="Build A Custom Pagination Component In Reactjs From Scratch"
-                            summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-                                Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-                            time="9 mins read time"
+                        <li>   <FeaturedArticle title="Generate smooth scrolling effect In Reactjs From Scratch"
+                            summary="Learn how to smooth scrolling effect in ReactJS from scratch. 
+                                Follow this step-by-step guide to smooth scrolling in your ReactJS project."
+                            time="5 mins read time"
                             link="/"
                             img={article2} />
                         </li>
@@ -120,15 +120,15 @@ const articles = () => {
                     <h2 className='font-bold text-4xl w-full text-center my-16 mt-28 md:text-2xl md:my-8 md:mt-16'>All Articles</h2>
 
                     <ul>
-                        <Article title="Creating An Efficient Modal Component In React Using Hooks And Portals" img={article3} date="April 23, 2023" link="/" />
+                        <Article title="2024 Software Development Trends" img={article3} date="2024" link="/" />
 
-                        <Article title="Creating An Efficient Modal Component In React Using Hooks And Portals" img={article3} date="April 23, 2023" link="/" />
+                        <Article title="Predictions 2024: Software Development" img={article3} date="2024" link="/" />
 
-                        <Article title="Creating An Efficient Modal Component In React Using Hooks And Portals" img={article3} date="April 23, 2023" link="/" />
+                        <Article title="AI and Machine Learning for Predictive Analytics" img={article3} date="2023" link="/" />
 
-                        <Article title="Creating An Efficient Modal Component In React Using Hooks And Portals" img={article3} date="April 23, 2023" link="/" />
+                        <Article title="Quantum Computing" img={article3} date="2024" link="/" />
 
-                        <Article title="Creating An Efficient Modal Component In React Using Hooks And Portals" img={article3} date="April 23, 2023" link="/" />
+                        <Article title="Front-End Frameworks" img={article3} date="2022" link="/" />
                     </ul>
 
                 </Layout>

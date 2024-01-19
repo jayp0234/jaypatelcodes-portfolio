@@ -32,7 +32,7 @@ export default function Home() {
 
               <div className='flex items-center self-start mt-2 lg:self-center'>
                    {/* Add the Resume pdf file here  */}
-                <Link href="/dummy.pdf" target={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 
+                <Link href="/Jay_Patel_Resume.pdf" target={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold 
                 hover:bg-light hover:text-dark
                 border-2 border-solid border-transperant hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light

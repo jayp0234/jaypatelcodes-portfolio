@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import { TwitterIcon, DribbbleIcon, GithubIcon, PinterestIcon, LinkedInIcon, SunIcon, MoonIcon } from './Icons'
+import { TwitterIcon, DribbbleIcon, GithubIcon, PinterestIcon, LinkedInIcon, SunIcon, MoonIcon, InstagramIcon, FacebookIcon } from './Icons'
 import { motion } from "framer-motion"
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 
@@ -98,16 +98,16 @@ const NavBar = () => {
     whileTap={{ scale: 0.5 }}
     className="w-6 mx-3"
 ><LinkedInIcon /></motion.a>
-<motion.a href="/" target={"_blank"}
+<motion.a href="https://www.instagram.com/_jay0234/" target={"_blank"}
     whileHover={{ y: -4 }}
     whileTap={{ scale: 0.5 }}
     className="w-6 mx-3"
-><PinterestIcon /></motion.a>
-<motion.a href="/" target={"_blank"}
+><InstagramIcon /></motion.a>
+<motion.a href="https://www.facebook.com/profile.php?id=100009302630209" target={"_blank"}
     whileHover={{ y: -4 }}
     whileTap={{ scale: 0.5 }}
     className="w-6 ml-3"
-><DribbbleIcon /></motion.a>
+><FacebookIcon /></motion.a>
 
 <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
     className="ml-4 flex items-center justify-center rounded-full p-1">

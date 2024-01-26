@@ -50,10 +50,10 @@ export default function Home() {
 
         <HireMe />
 
-        <div className='absolute right-32 -bottom-36 w-48 md:hidden'>
-        <Laptop className=' h-auto fill-dark dark:fill-light' style={{ width: '200px', height: '200px' }} />
+        <div className='absolute bottom-0 right-32 w-48 md:hidden'>
+  <Laptop className='h-auto fill-dark dark:fill-light' style={{ width: '200px', transform: 'translateY(110%)' }} />
+</div>
 
-        </div>
       
       </main>
     </>

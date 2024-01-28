@@ -17,7 +17,7 @@ export default function Home() {
       <Head>
         <title>Jay Patel Codes</title>
         <meta name="description" content="This is a portfolio website designed and built by Jay Patel, A Software Development Student at SAIT, Calgary, AB, CA." />
-        <meta name="keywords" content="protfolio, portfolio website, jay patel, Jay Patel, jay patel codes, jay patel portfolio, portfolio website in next.js"
+        <meta name="keywords" content="protfolio, portfolio website, jay patel, Jay Patel, jay patel codes, jay patel portfolio, portfolio website in next.js"></meta>
       <meta name="author" content='Jay Patel'></meta>
       </Head>
 

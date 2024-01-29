@@ -41,7 +41,7 @@ export default function Home() {
                 md:p-2 md:px-4 md:text-base
                 ' 
                 download={true}
-                >Resume <LinkArrow className={"w-6 ml-1"} />
+                >Resume <LinkArrow className={"w-6 ml-1"} /> 
                 </Link>
 
                 <Link href="mailto:jayusp.ca0234@gmail.com" target={"_blank"} className='ml-4 text-lg font-medium capitalize text-dark underline hover:text-orange-600 hover:scale-105 hover:transition delay-300 dark:text-light md:text-base'>Contact</Link>

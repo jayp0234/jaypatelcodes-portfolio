@@ -39,25 +39,14 @@ const Experience = () => {
         style={{scaleY: scrollYProgress}}
         className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]'/>
 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2 '>
-   <Details className ="text-blue-600 underline decoration-slate-600 decoration-4 drop-shadow-lg" position="Computing Solutions Advisor" company="Best Buy" time="Jul 2023 - Present" address="Calgary, CA" 
-   work="As a Computing Solutions Advisor at Best Buy, my primary responsibility is 
-   to assist customers in finding the perfect computing solutions to meet their needs. 
-   I provide expert guidance on laptops, desktops, tablets, softwares and accessories, 
-   ensuring customers make informed decisions. My role involves staying up-to-date with 
-   the latest technology trends and offering exceptional customer service to create a satisfying shopping experience." 
-   companyLink="https://www.bestbuy.ca" />
+   <Details className ="text-[#2761ae] underline decoration-company decoration-4 drop-shadow-lg" position="Full Stack Developer Intern" company="Sys Creations Inc." time="May 2023 - Aug 2023" address="Burlington, ON" 
+   work="Contributed to the development of a dynamic web application with a 43% increase in user engagement, using React.
+   js, TypeScript, and MongoDB. Enhanced application functionality by integrating RESTful APIs using Spring Boot. Participated in deploying automated testing using Docker and continuous integration processes to ensure optimal
+   system performance. Assisted in developing a comprehensive appointment scheduling system and implemented best practices for responsive
+   design and API security, prioritizing data privacy and user safety." 
+   companyLink="https://www.syscreations.com/" />
 
-<Details className ="text-red-600 underline decoration-slate-600 decoration-4 drop-shadow-lg" position="Gas Station Attendant" company="Petro-Canada Fuels" time="Feb 2023 - Present" address="Calgary, CA" 
-   work="As a Gas Station Attendant at Petro-Canada, I play a pivotal role in providing top-notch customer service. My responsibilities include processing payments for fueling accurately, and maintaining a clean and organized work environment. Also be a friendly face to customers, answering their questions and ensuring their visit to the gas station is convenient and pleasant." 
-   companyLink="https://www.petro-canada.ca" />
 
-<Details className ="text-blue-600 underline decoration-amber-400 decoration-4 drop-shadow-lg" position="Omni Fulfillment Associate " company="Walmart" time="Jul 2023 - Jan 2024" address="Calgary, CA" 
-   work="As an Omni Fulfillment Associate at Walmart in Calgary, my role involved accurately picking and packing online orders, maintaining inventory, and providing exceptional customer service. Used technology to track and manage orders, ensuring a seamless shopping experience." 
-   companyLink="https://www.walmart.ca />" />
-
-<Details className ="text-red-500 underline decoration-blue-600 decoration-4 drop-shadow-lg" position="Produce Clerk" company="Real Canadian Superstore" time="Oct 2022 - Jan 2023" address="Calgary, CA" 
-   work="As a Produce Clerk at Real Canadian Superstore I was responsible for maintaining fresh produce displays, ensuring quality and freshness, and assisting customers with their selections. This role involved stocking and organizing the produce section, performing regular quality checks, and handling inventory." 
-   companyLink="https://www.realcanadiansuperstore.ca/" />
 </ul>
 
     </div>

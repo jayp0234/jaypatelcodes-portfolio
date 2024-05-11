@@ -8,8 +8,8 @@ import project1 from "../../public/images/projects/SignUp Page.png"
 import project2 from "../../public/images/projects/LiBook.png"
 import project3 from "../../public/images/projects/TravelLess App1.png"
 import project4 from "../../public/images/projects/Portfolio Dark.png"
-import project5 from "../../public/images/projects/Java1.png"
-import project6 from "../../public/images/projects/python.png"
+import readingsome from "../../public/images/projects/readingsome.png"
+import rewarthe from "../../public/images/projects/rewarthe.png"
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -90,21 +90,51 @@ const projects = () => {
 
                     <div className='grid grid-col-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-16 sm:gap-x-0'>
 
+                    <div className='col-span-12'>
+
+<FeaturedProject
+    title="ReadingSome Blog Website"
+    summary="Developed a literary blog using the MERN stack, featuring robust AWS S3 integration for image backup and archival and Firebase for secure user authentication. The platform is designed to engage readers with diverse literary content, allowing for interactive discussions and seamless media handling."
+    link="https://www.readingsome.com/" img={readingsome} github="https://github.com/jayp0234/readingsome-blog-webapp" type="Featured Project 1"
+
+/>
+
+</div>
+<div className='col-span-6 sm:col-span-12'>
+
+< Project
+    title="Personal Portfolio Website"
+    summary="Crafted using Next.js and styled with Tailwind CSS, this digital portfolio is a reflection of my development journey, highlighting key projects and showcasing my design proficiency. It encapsulates my dedication to coding and a user-centric approach to design, illustrating my skills in creating responsive, intuitive interfaces. This portfolio not only displays my technical abilities but also my passion for developing solutions that prioritize user experience and aesthetic appeal. It also features screen responsiveness and dark/light mode switch."
+    link="/" img={project4} github="https://github.com/jayp0234/jaypatelcodes-portfolio" type="Project 1"
+/>
+
+</div>
+<div className='col-span-6 sm:col-span-12'>
+
+< Project
+    title="Rewarthe App"
+    summary="Developed a React Native based shopping rewards app as a team, integrating Firebase for authentication and real-time database management, and Postman for comprehensive API testing. The capstone project focused on improving customer loyalty by offering customized rewards based on user shopping behaviors and preferences."
+    link="https://github.com/jayp0234/rewarthe-app-reactnative" img={rewarthe} github="https://github.com/jayp0234/rewarthe-app-reactnative" type="Project 2"
+/>
+
+</div>
+
+
                         <div className='col-span-12'>
 
                             <FeaturedProject
-                                title="Login/SignUp Functionality Web App"
+                                title="Login/SignUp Functionality Template"
                                 summary="A webpage developed using Next.js framework, using TypeScript, MongoDB, and AppWrite. This login page has all the functionalities from taking user requests, communicating with the database, and getting responses from the database where APIs are used to complete this set of tasks. Also has two layers of authentication."
-                                link="/projects" img={project1} github="https://github.com/jayp0234/next-login-web" type="Featured Project 1"
+                                link="/projects" img={project1} github="https://github.com/jayp0234/next-login-web" type="Featured Project 2"
 
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
-
+ 
                             < Project
                                 title="LiBook App"
                                 summary="Developed Libook, an advanced library management application utilizing C#, MySQL, and the .NET framework. Libook is engineered to efficiently manage a vast collection of books, streamlining the process of book data retrieval and user interaction. Key functionalities include real-time fetching of book data from the database, processing user inputs, and retrieving up-to-date information on book reservations. This application demonstrates a sophisticated understanding of database management and user interface design, showcasing my capability to create complex, user-focused solutions in the library management sector."
-                                link="/projects" img={project2} github="https://github.com/jayp0234/LiBook" type="Project 1"
+                                link="/projects" img={project2} github="https://github.com/jayp0234/LiBook" type="Project 3"
                             />
 
                         </div>
@@ -113,40 +143,12 @@ const projects = () => {
                             < Project
                                 title="TravelLess App"
                                 summary="Developed TravelLess, a user-friendly flight booking and reservation app, leveraging C# and the .NET framework. This application streamlines the process of flight search, booking, and management. It features an intuitive search interface, booking capabilities, and data fetching functionality to check the reservation made from text files."
-                                link="/projects" img={project3} github="https://github.com/jayp0234/TravelLess" type="Project 2"
+                                link="/projects" img={project3} github="https://github.com/jayp0234/TravelLess" type="Project 4"
                             />
 
                         </div>
 
-                        <div className='col-span-12'>
-
-                            <FeaturedProject
-                                title="Personal Portfolio Website"
-                                summary="Crafted using Next.js and styled with Tailwind CSS, this digital portfolio is a reflection of my development journey, highlighting key projects and showcasing my design proficiency. It encapsulates my dedication to coding and a user-centric approach to design, illustrating my skills in creating responsive, intuitive interfaces. This portfolio not only displays my technical abilities but also my passion for developing solutions that prioritize user experience and aesthetic appeal. It also features screen responsiveness and dark/light mode switch."
-                                link="https://jaypatelcodes.vercel.app/" img={project4} github="https://github.com/jayp0234/jaypatelcodes" type="Featured Project 2"
-
-                            />
-
-                        </div>
-
-                        <div className='col-span-6 sm:col-span-12'>
-
-                            < Project
-                                title="Car Rental System"
-                                summary="Implemented a basic Car rental system using Java and Oop concepts."
-                                link="/projects" img={project5} github="/" type="Project 3"
-                            />
-
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-
-                            < Project
-                                title="Virtual Assistant"
-                                summary="Made this as a hobby using Python, its speech recognition library, and ChatGPT API which gives replies to basic questions."
-                                link="/projects" img={project6} github="https://github.com/jayp0234/virtual-assistant-py" type="Project 4"
-                            />
-
-                        </div>
+                    
 
                     </div>
                 </Layout>

@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='flex items-center lg:py-1'>
         <Link href="/">Build by Jay Patel</Link>
         </div>
-        <Link href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwLDI2MmD0Yk9OzElPLKoEADD2BXs&q=calgary&rlz=1C5CHFA_enCA1080CA1080&oq=calgary&gs_lcrp=EgZjaHJvbWUqEggBEC4YQxiDARixAxiABBiKBTIHCAAQABiPAjISCAEQLhhDGIMBGLEDGIAEGIoFMgYIAhBFGEAyBggDECMYJzISCAQQABhDGIMBGLEDGIAEGIoFMhIIBRAuGEMYgwEYsQMYgAQYigUyDAgGEAAYQxiABBiKBTIYCAcQLhhDGIMBGMcBGLEDGNEDGIAEGIoF0gEJNjA1M2owajE1qAIAsAIA&sourceid=chrome&ie=UTF-8" target={"_blank"}>Calgary, Alberta, Canada</Link>
+        <Link href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwLDI2MmD0Yk9OzElPLKoEADD2BXs&q=calgary&rlz=1C5CHFA_enCA1080CA1080&oq=calgary&gs_lcrp=EgZjaHJvbWUqEggBEC4YQxiDARixAxiABBiKBTIHCAAQABiPAjISCAEQLhhDGIMBGLEDGIAEGIoFMgYIAhBFGEAyBggDECMYJzISCAQQABhDGIMBGLEDGIAEGIoFMhIIBRAuGEMYgwEYsQMYgAQYigUyDAgGEAAYQxiABBiKBTIYCAcQLhhDGIMBGMcBGLEDGNEDGIAEGIoF0gEJNjA1M2owajE1qAIAsAIA&sourceid=chrome&ie=UTF-8" target={"_blank"}>Calgary, AB, CA</Link>
     </Layout>
    </footer>
   )
